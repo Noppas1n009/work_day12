@@ -18,6 +18,4 @@
             </span>
         </div>
     </div>
-    
-    
 </div>

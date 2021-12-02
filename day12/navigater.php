@@ -4,6 +4,7 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
+  
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
@@ -30,11 +31,13 @@
         <a class="nav-link" href="logout.php">logout</a>
       </li>  
     </ul>
-  </div> 
+  </div>
+
   <div >
     ผู้ใช้งาน : <?php echo $_SESSION['name'] ?>
   </div> 
 </nav>
+
 <?php
   if ($_SESSION['user']==''){
     header("location:index.php");
