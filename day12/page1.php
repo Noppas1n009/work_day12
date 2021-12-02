@@ -6,7 +6,7 @@
   <!-- <div class="row"> -->
     <h3>หน้าที่ 1</h3>
     <h4>ผู้ใช้งาน Code Name : Noppas1n <?php echo $_SESSION['user'] .'  '.$_SESSION['name'] ?></h4>
-    <h3>TEST</h3>
+    <h3>TEST2</h3>
 
     
   <!-- </div> -->
