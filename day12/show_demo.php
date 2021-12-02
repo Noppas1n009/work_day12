@@ -18,7 +18,7 @@ $sql=mysqli_query($conn,"SELECT * FROM demo");
 
 if (mysqli_num_rows($sql) > 0) {
   // output data of each row
-  while($row = mysqli_fetch_assoc($result)) {
+  while($row = mysqli_fetch_assoc($sql)) {
     echo "id: ".$row["id"]." - Name: ".$row["name"]." - Address: ".$row["address"]."<br>";
   }
 } else {
