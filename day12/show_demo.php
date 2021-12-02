@@ -5,6 +5,7 @@ $password = "it123456";
 $dbname = "it64309010009";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
+mysqli_set_charset($conn,"utf8mb4");
 
 // Check connection
 if (!$conn) {
