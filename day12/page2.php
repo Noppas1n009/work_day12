@@ -9,8 +9,6 @@
     <h3>หน้าที่ 2</h3>
     <h3>หน้าที่ 2</h3>
     <h5>EDIT : UPLOAD TO SERVER</h5>
-
-    
   <!-- </div> -->
 </div>
 
